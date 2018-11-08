@@ -1,6 +1,6 @@
 # Pixiv-grab
 
-Pixiv grab is a Firefox Extension that grabs all images on any pixiv webpage including: the main page, user pages, and tag pages. The extension is currently pending approval.
+Pixiv grab is a Firefox Extension that grabs all images on any pixiv webpage including: the main page, user pages, and tag pages. The extension is available at https://addons.mozilla.org/en-US/firefox/addon/pixiv-grab/
 
 # Libraries used
 
