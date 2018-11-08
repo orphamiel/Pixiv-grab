@@ -1,0 +1,30 @@
+{
+
+	"manifest_version": 2,
+	"name": "Pixiv Downloader",
+	"version": "1.0",
+
+	"description": "Pixiv Downloader grabs all illustrations and sketches, at their original resolution, from most pages on the pixiv website including the main page, any user page, any tag pages and more.",
+
+	"icons": {
+		"96": "icons/icon96.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.pixiv.net/*"],
+			"js": ["content_main.js"]
+		}
+	],
+	
+	"background": {
+		"scripts": ["lib/jquery-3.3.1.min.js", "bg_main.js"]
+	},
+	
+	"permissions": ["*://*.pixiv.net/*",
+					"*://*.pximg.net/*",
+					"downloads",
+					"webRequest",
+					"webRequestBlocking"]
+
+}
